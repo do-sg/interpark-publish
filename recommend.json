@@ -1,0 +1,83 @@
+{
+  "total": 12,
+  "good_1": {
+    "image": "images/r1.jpg",
+    "discount": 47,
+    "price": 6090,
+    "desc": "설명입니다.",
+    "url": "a.html"
+  },
+  "good_2": {
+    "image": "images/r2.jpg",
+    "discount": 13,
+    "price": 12900,
+    "desc": "설명입니다.",
+    "url": "a.html"
+  },
+  "good_3": {
+    "image": "images/r3.jpg",
+    "discount": 42,
+    "price": 12900,
+    "desc": "설명입니다.",
+    "url": "a.html"
+  },
+  "good_4": {
+    "image": "images/r4.jpg",
+    "discount": 2,
+    "price": 8240,
+    "desc": "설명입니다.",
+    "url": "a.html"
+  },
+  "good_5": {
+    "image": "images/r5.jpg",
+    "discount": 22,
+    "price": 39000,
+    "desc": "설명입니다.",
+    "url": "a.html"
+  },
+  "good_6": {
+    "image": "images/r6.jpg",
+    "discount": 29,
+    "price": 34900,
+    "desc": "설명입니다.",
+    "url": "a.html"
+  },
+  "good_7": {
+    "image": "images/r7.jpg",
+    "discount": 2,
+    "price": 22220,
+    "desc": "설명입니다.",
+    "url": "a.html"
+  },
+  "good_8": {
+    "image": "images/r8.jpg",
+    "discount": 35,
+    "price": 26900,
+    "desc": "설명입니다.",
+    "url": "a.html"
+  },
+  "good_9": {
+    "image": "images/r9.jpg",
+    "discount": 14,
+    "price": 18260,
+    "desc": "설명입니다.",
+    "url": "a.html"
+  },
+  "good_10": {
+    "image": "images/r10.jpg",
+    "discount": 18,
+    "price": 2930,
+    "desc": "설명입니다.",
+    "url": "a.html"
+  },
+  "good_11": {
+    "image": "images/r11.jpg",
+    "discount": 25,
+    "price": 10410,
+    "desc": "설명입니다.",
+    "url": "a.html"
+  },
+  "good_12": {
+    "url": "go.html"
+  }
+}

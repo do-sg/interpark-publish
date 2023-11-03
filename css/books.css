@@ -1,0 +1,143 @@
+.books {
+  position: relative;
+  padding-top: 0;
+  padding-bottom: 90px;
+}
+.books-inner {
+  position: relative;
+  width: 1280px;
+  margin: 0 auto;
+}
+.books-header {
+  position: relative;
+}
+.books-title {
+  position: relative;
+  margin-bottom: 10px;
+  font-size: 28px;
+  font-weight: 700;
+  color: #000;
+  text-align: center;
+}
+.books-txt {
+  position: relative;
+  display: block;
+  font-size: 18px;
+  font-weight: 400;
+  color: #a7a9a7;
+  text-align: center;
+}
+.books-main {
+  position: relative;
+  padding: 25px 0;
+}
+.books-cate {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.books-list {
+  position: relative;
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+.books-list li {
+  position: relative;
+}
+.books-cate-bt {
+  position: relative;
+  display: block;
+  padding: 0 20px;
+  border: 1px solid #e5e5e5;
+  background-color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 42px;
+  cursor: pointer;
+  border-radius: 44px;
+}
+.books-cate-bt-active {
+  border: 1px solid transparent !important;
+  background-color: #333 !important;
+  font-weight: 700 !important;
+  color: #fff !important;
+}
+.books-slide-wrap {
+  position: relative;
+  height: 403px;
+  margin-top: 23px;
+}
+.books-slide-item {
+  position: relative;
+  height: 403px;
+  overflow: hidden;
+}
+.books-link {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.books-img {
+  position: relative;
+}
+.books-img img {
+  position: relative;
+  width: 232px;
+  height: 335px;
+  object-fit: cover;
+}
+.books-info {
+  position: relative;
+  height: 58px;
+  padding: 15px 15px;
+  text-align: center;
+}
+.books-good-list {
+  position: relative;
+}
+.books-good-list li {
+  position: relative;
+  margin-bottom: 10px;
+}
+.books-info-desc {
+  position: relative;
+  /* 1줄 말줄임 */
+  overflow: hidden;
+  font-size: 15px;
+  font-weight: 400;
+  color: #111111;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.books-info-price {
+  position: relative;
+  font-size: 16px;
+  font-weight: 400;
+  color: #111111;
+}
+.books-info-price b {
+  position: relative;
+  font-size: 20px;
+  font-weight: 700;
+  color: #111111;
+}
+
+.books-footer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.books-footer-bt {
+  position: relative;
+  display: block;
+  padding: 0 20px;
+  border: 1px solid #e5e5e5;
+  background-color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 42px;
+  color: #111;
+  cursor: pointer;
+  border-radius: 44px;
+}

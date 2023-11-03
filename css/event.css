@@ -1,0 +1,52 @@
+.event {
+  position: relative;
+  padding-top: 0;
+  padding-bottom: 90px;
+}
+.event-inner {
+  position: relative;
+  width: 1280px;
+  height: 350px;
+  margin: 0 auto;
+}
+.event-header {
+  position: relative;
+}
+.event-title {
+  position: relative;
+  margin-bottom: 10px;
+  font-size: 28px;
+  font-weight: 700;
+  color: #000;
+  text-align: center;
+}
+.event-txt {
+  position: relative;
+  display: block;
+  font-size: 18px;
+  font-weight: 400;
+  color: #a7a9a7;
+  text-align: center;
+}
+
+.event-slide-wrap {
+  position: relative;
+  padding: 25px 0;
+}
+.event-slide-item {
+  position: relative;
+  border: 1px solid #e8e8e8;
+  overflow: hidden;
+  border-radius: 10px;
+}
+}
+.event-slide-item a {
+  position: relative;
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  border-radius: 13px;
+}
+.event-slide-item a img {
+  position: relative;
+}

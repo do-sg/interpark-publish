@@ -15,6 +15,7 @@
   height: 100%;
 }
 .visual-slide {
+  position: relative;
 }
 
 .visual-slide-item {
@@ -55,7 +56,7 @@
   height: 18px;
   display: block;
   margin: 0 auto;
-  background: url(../images/slider_arrow.svg) no-repeat center;
+  background: url("../images/slider_arrow.svg") no-repeat center;
   transform: rotateY(180deg);
 }
 .visual-slide-next {
@@ -79,5 +80,5 @@
   height: 18px;
   display: block;
   margin: 0 auto;
-  background: url(../images/slider_arrow.svg) no-repeat center;
+  background: url("../images/slider_arrow.svg") no-repeat center;
 }
