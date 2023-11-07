@@ -20,6 +20,7 @@
 }
 .live-main {
   position: relative;
+  padding: 25px 0;
 }
 .live-slide-wrap {
   position: relative;
@@ -31,15 +32,110 @@
   height: 456px;
   overflow: hidden;
   border-radius: 10px;
+  display: flex;
+  justify-content: flex-end;
 }
 .live-link {
   position: relative;
+  display: block;
+  width: 100%;
+  height: 456px;
 }
 .live-img {
   position: relative;
+  width: 100%;
+  height: 100%;
 }
-.live-info {
+.live-img img {
   position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.live-info-top {
+  position: absolute;
+  box-sizing: border-box;
+  width: 100%;
+  height: 88px;
+  top: 20px;
+  padding: 0 2rem;
+  z-index: 2;
+}
+.live-info-bt {
+  display: inline-block;
+  padding: 0 12px;
+  margin-bottom: 8px;
+  width: 69px;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 32px;
+  border-radius: 16px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: rgb(255, 255, 255);
+}
+.live-info-title {
+  position: absolute;
+  width: 260px;
+  font-size: 20px;
+  font-weight: 700;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #fff;
+}
+.live-info-date {
+  position: absolute;
+  top: 50%;
+  margin-top: -50px;
+  left: 50%;
+  margin-left: -70px;
+  text-align: center;
+}
+.live-date {
+  font-size: 2.8rem;
+  line-height: 3.35rem;
+}
+.live-time {
+  font-size: 5rem;
+  line-height: 6rem;
+}
+.live-product {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  height: 64px;
+  padding: 0 20px;
+  left: 0;
+}
+.live-product-link {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  height: 100%;
+}
+
+.live-product-img {
+  position: absolute;
+  left: 2rem;
+  width: 64px;
+  height: 64px;
+}
+.live-product-img img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.6rem;
+}
+.live-product-title {
+  position: relative;
+  display: block;
+  width: 184px;
+  height: 64px;
+  top: 7px;
+  font-size: 15px;
+  font-weight: 400;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #fff;
 }
 
 .live-footer {

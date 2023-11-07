@@ -27,7 +27,16 @@ window.addEventListener("load", function () {
 
       const obj = _res["ticket_" + index];
 
-      const tempTag = `
+      let tempTag = ``;
+
+      if (i === _res.total - 1) {
+        tempTag = `
+          <div class="swiper-slide">
+            바로가기
+          </div>
+        `;
+      } else {
+        tempTag = `
       <div class="swiper-slide">
         <div class="ticket-slide-item">
           <a href="${obj.url}" class="ticket-link">
@@ -55,11 +64,14 @@ window.addEventListener("load", function () {
         </div>
       </div>
       `;
+      }
+
       htmlTicketTag += tempTag;
+      // console.log(htmlTicketTag);
     }
-    // console.log(htmlTicketTag);
     showHtmlTag(htmlTicketTag);
   }
+
   function showHtmlTag(_html) {
     const ticketSlide = ".ticket-slide .swiper-wrapper";
     const tag = document.querySelector(ticketSlide);

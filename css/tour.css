@@ -164,3 +164,7 @@
   cursor: pointer;
   border-radius: 44px;
 }
+.tour-footer-bt img {
+  position: relative;
+  display: inline-block;
+}
